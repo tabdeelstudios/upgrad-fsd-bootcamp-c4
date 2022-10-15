@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="count">0</h1>
+    <button onclick="stopInterval()">Stop Interval</button>
+    <!-- <button onclick="stopTimeout()">Stop Timeout</button> -->
+    <script>
+
+        let add = (num1, num2, callback) => {
+            let result = num1 + num2;
+            callback(result);
+        }
+
+        let display = answer => alert(`The sum is ${answer}.`);
+
+        add(1, 2, display);
+
+
+        // function calculate(operation, initialValue, numbers) {
+        //     let total = initialValue;
+        //     for (const number of numbers) {
+        //         total = operation(total, number);
+        //     }
+        //     return total;
+        // }
+
+        // function sum(n1, n2) {
+        //     return n1 + n2;
+        // }
+
+        // function multiply(n1, n2) {
+        //     return n1 * n2;
+        // }
+
+        // function subtract(n1, n2) {
+        //     return n1 - n2;
+        // }
+
+        // calculate(sum, 0, [1, 2, 4]);      // => 7
+        // calculate(multiply, 1, [1, 2, 4]); // => 8
+
+
+
+        // console.log("Header loaded");
+        // console.log("Testimonials loaded");
+        // console.log("Footer loaded");
+
+        // let counter = 0;
+
+        // let myInterval = setInterval(modifyCount, 2000);
+
+        // function modifyCount() {
+        //     counter = counter + 1;
+        //     document.getElementById("count").innerHTML = counter;
+        // }
+
+        // function stopInterval() {
+        //     clearInterval(myInterval);
+        // }
+
+        // let myTimeout = setTimeout(sayHello, 3000);
+
+        // function sayHello() {
+        //     console.log("Hello!");
+        // }
+
+        // function stopTimeout() {
+        //     clearTimeout(myTimeout);
+        // }
+    </script>
+</body>
+
+</html>
