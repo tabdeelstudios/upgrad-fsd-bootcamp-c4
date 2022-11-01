@@ -1,0 +1,9 @@
+Suppose you need to store information regarding a theatre. Create the following variables to store information about the theatre, along with the values that need to be stored:
+
+- Theatre Name: Inox (done)
+- Number of Seats: 350 (done)
+- Movie Screens Present: 10, 11, 12 (done)
+- Restaurant Details: Name of restaurant and the number of outlets in the theatre. The name of the restaurant should be MacD, with 1 outlet present in the theatre (done)
+- A movie can have only one of three statuses: Upcoming, Ongoing and Deleted. Store this information in a variable and set the status of the movie Tenet as ‘Upcoming’. (done)
+- Theatre Location: To store the street location or the pincode of the theatre. It should store ‘Worli Naka’ as a ‘string’ value or 400018 as the ‘numerical’ value (done)
+
